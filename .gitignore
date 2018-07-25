@@ -1,0 +1,4 @@
+vendor
+data/cache/*
+config/autoload/*.local.php
+.*

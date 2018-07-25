@@ -1,0 +1,26 @@
+<?php $this->layout('layout::default', ['title' => 'Home']) ?>
+
+<table>
+	<thead>
+		<tr>
+			<th>
+				Guild Name
+			</th>
+			<th>
+				Domain Name
+			</th>
+		<tr>
+	</thead>
+	<tbody>
+    	<?php foreach ($guilds->getIterator() as $guild): ?>
+    		<tr>
+    			<td>
+    				<?= $guild->getName(); ?>
+    			</td>
+    			<td>
+    				<?= $guild->getDomainName(); ?>
+    			</td>
+    		</tr>
+    	<?php endforeach; ?>
+	</tbody>
+</table>
