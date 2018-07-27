@@ -1,0 +1,39 @@
+<?php
+
+declare(strict_types=1);
+
+use FTC\Discord\Model\Collection\ErrorMessageCollection;
+use FTC\Discord\Model\Aggregate\ErrorMessage;
+
+/**
+ * @var ErrorMessageCollection $errors
+ * @var ErrorMessage $error
+ */
+
+$this->layout('layout::default', ['title' => 'Home'])
+?>
+
+<table>
+	<thead>
+		<tr>
+			<th>
+				Location
+			</th>
+			<th>
+				Context
+			</th>
+		<tr>
+	</thead>
+	<tbody>
+    	<?php foreach ($errors->getIterator() as $error): ?>
+    		<tr>
+    			<td>
+    				<?= $error->getLocation(); ?>
+    			</td>
+    			<td>
+    				<?= $error->getContext(); ?>
+    			</td>
+    		</tr>
+    	<?php endforeach; ?>
+	</tbody>
+</table>

@@ -35,4 +35,5 @@ use Zend\Expressive\MiddlewareFactory;
 return function (Application $app, MiddlewareFactory $factory, ContainerInterface $container) : void {
     $app->get('/', App\Handler\HomePageHandler::class, 'home');
     $app->get('/websites', App\Handler\WebsitesHandler::class, 'websites');
+    $app->get('/logs', App\Handler\LogsHandler::class, 'logs');
 };

@@ -41,6 +41,7 @@ services:
       traefik.enable: true
       traefik.backend: discord_platadmin-front-server
       traefik.frontend.rule: Host:platform-admin.ftcbot-dev.test
+      traefik.frontend.priority: 10
       traefik.docker.network: traefik
       traefik.port: 80
     networks:

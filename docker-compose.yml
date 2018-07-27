@@ -29,7 +29,7 @@ services:
       ftcbot:
       
   platadmin-front-server:
-    image: qbonaventure/discord-website-server:1
+    image: discord-platform-administration-server
     ports:
       - "7625:80"
     links: 

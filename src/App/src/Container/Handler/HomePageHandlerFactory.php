@@ -2,12 +2,13 @@
 
 declare(strict_types=1);
 
-namespace App\Handler;
+namespace App\Container\Handler;
 
 use Psr\Container\ContainerInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use Zend\Expressive\Router\RouterInterface;
 use Zend\Expressive\Template\TemplateRendererInterface;
+use App\Handler\HomePageHandler;
 
 class HomePageHandlerFactory
 {
