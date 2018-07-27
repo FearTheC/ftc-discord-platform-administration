@@ -609,12 +609,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/QBonaventure/discord-db-postgresql.git",
-                "reference": "e8c3ac912d4a7aa1e6a16a2266a572c657820c6f"
+                "reference": "3a6dc5c57f86539b2ea8bb1e354d1580ddf6ed4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/QBonaventure/discord-db-postgresql/zipball/e8c3ac912d4a7aa1e6a16a2266a572c657820c6f",
-                "reference": "e8c3ac912d4a7aa1e6a16a2266a572c657820c6f",
+                "url": "https://api.github.com/repos/QBonaventure/discord-db-postgresql/zipball/3a6dc5c57f86539b2ea8bb1e354d1580ddf6ed4e",
+                "reference": "3a6dc5c57f86539b2ea8bb1e354d1580ddf6ed4e",
                 "shasum": ""
             },
             "require": {
@@ -639,7 +639,7 @@
                 "source": "https://github.com/QBonaventure/discord-db-postgresql/tree/master",
                 "issues": "https://github.com/QBonaventure/discord-db-postgresql/issues"
             },
-            "time": "2018-07-27T07:50:21+00:00"
+            "time": "2018-07-27T11:56:44+00:00"
         },
         {
             "name": "qbonaventure/discord-model",
@@ -647,12 +647,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/QBonaventure/discord-model.git",
-                "reference": "87e094ed6e2ade8d827ed05af24e4c6c91354772"
+                "reference": "a7183c4b4bd7396f63931da65c63992b74323208"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/QBonaventure/discord-model/zipball/87e094ed6e2ade8d827ed05af24e4c6c91354772",
-                "reference": "87e094ed6e2ade8d827ed05af24e4c6c91354772",
+                "url": "https://api.github.com/repos/QBonaventure/discord-model/zipball/a7183c4b4bd7396f63931da65c63992b74323208",
+                "reference": "a7183c4b4bd7396f63931da65c63992b74323208",
                 "shasum": ""
             },
             "require-dev": {
@@ -679,7 +679,7 @@
                 "source": "https://github.com/QBonaventure/discord-model/tree/master",
                 "issues": "https://github.com/QBonaventure/discord-model/issues"
             },
-            "time": "2018-07-26T14:28:49+00:00"
+            "time": "2018-07-27T11:56:25+00:00"
         },
         {
             "name": "zendframework/zend-auradi-config",
